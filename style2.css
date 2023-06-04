@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+.medsos {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.medsos ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.medsos ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.medsos ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  background-color: #666;
+  padding: 20px 0;
+}
+
+header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul li a.active,
+header ul li a:hover {
+  color: #ff0;
+}
+
+/* About Styles */
+.about {
+  padding: 40px 0;
+}
+
+.about h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Banner Styles */
+.banner {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner h2 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: blue;
+  color: yellow;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer h3 {
+  margin: 0;
+  padding: 0;
+  color: yellow;
+}

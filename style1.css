@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+.medsos {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.medsos ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.medsos ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.medsos ul li a {
+  color: #FF0;
+  text-decoration: none;
+}
+
+header {
+  background-color:#36F;
+  padding: 20px 0;
+}
+
+header h1 a {
+  color: #FF0;
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul li a.active,
+header ul li a:hover {
+  color: #ff0;
+}
+
+/* Label Styles */
+.label {
+  background-color: #f5f5f5;
+  padding: 10px 0;
+}
+
+.label p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* About Styles */
+.about {
+  padding: 40px 0;
+}
+
+.about img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.about h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  margin-bottom: 20px;
+}
+
+.about h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.member {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.member .profile {
+  width: calc(25% - 20px);
+  margin-bottom: 40px;
+}
+
+.member .profile img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.member .profile h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.member .profile p {
+  margin-bottom: 10px;
+}
+
+.member .profile .profile-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.member .profile .profile-button:hover {
+  background-color: #666;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer small {
+  color: #fff;
+}
